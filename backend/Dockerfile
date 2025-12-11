@@ -10,7 +10,7 @@
 # 1. Build Environment
 #########################
 
-FROM eclipse-temurin:8-jdk-focal as builder
+FROM eclipse-temurin:21 as builder
 
 ARG ANT_VERSION=1.10.12
 ARG SOURCE=https://github.com/Edirom/Edirom-Online-Backend.git
